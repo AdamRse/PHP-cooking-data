@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +10,7 @@
 </head>
 <body>
     <?php
-    include './Partie-9/1.php';
+    include 'Partie-8/1.php';
     ?>
 </body>
 </html>

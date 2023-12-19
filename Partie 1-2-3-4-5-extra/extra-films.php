@@ -18,7 +18,7 @@ function vardumpPerso($variable, $i = 0){
             if(is_array($v)){
                 echo ($i>0)?"<br/>":null;
                 echo indent($i)."[<b>\"$k\"</b>]";
-                vardumpPerso($v, ++$i);
+                vardumpPerso($v, ($i+1));
             }
             else{
                 echo "<br/>".indent($i)."[<b>\"$k\"</b>] => (".gettype($v).") $v<br/>".indent($i);

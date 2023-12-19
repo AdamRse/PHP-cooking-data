@@ -7,7 +7,13 @@
 </head>
 <body>
     <?php
-    include './Partie-9/1.php';
+    if(empty($_POST)){
+    include 'Partie-7/5-6.php';
+    }
+    else
+        include 'Partie-7/user5-6.php';
+
+
     ?>
 </body>
 </html>
