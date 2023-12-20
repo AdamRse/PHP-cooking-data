@@ -34,9 +34,9 @@ echo "<p>".date("d-m-y", time())."</p>";
 //3
 echo "<p>".date("l F Y", time())."</p>";
 //4
-echo "<p>Timestamp actuel :".date("U", time());
 $date1 = new DateTime("2016-02-08 15:00:00");
-echo "<br/>Timestamp du 2 août 2016 à 15h : ".date("U", 1470142800)."</p>";
+echo "<p>Timestamp actuel :".date("U", time());
+echo "<br/>Timestamp du 2 août 2016 à 15h : ".$date1->getTimestamp()."</p>";
 //5
 $date1 = new DateTime();
 $date2 = new DateTime();

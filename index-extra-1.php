@@ -7,7 +7,12 @@
 </head>
 <body>
     <?php
-        include './extra/extra-2.php';
+    if(empty($_POST)){
+        include './extra/etra-1.php';
+    }
+    else{
+        include '/extra/etra-1-2.php';
+    }
     ?>
 </body>
 </html>
